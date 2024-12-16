@@ -8,8 +8,9 @@ import Comparison from './components/pure-components-concept/Comparison.tsx';
 import Exercise4 from './components/challenges/challenge4/Exercise4.tsx';
 import { RenderingLists } from './components/rendering-lists/RenderingLists.tsx';
 import Exercise3 from './components/challenges/challenge3/Exercise3.tsx';
-import Exercise3Solution from './components/challenges/challenge3/Exercise3Solution.tsx';
 import Exercise5 from './components/challenges/challenge5/Exercise5.tsx';
+import Exercise6 from './components/challenges/challenge6/Exercise6.tsx';
+import Exercise7 from './components/challenges/challenge7/Exercise7.tsx';
 
 
 function App() {
@@ -24,8 +25,9 @@ function App() {
         <Route path="exercise/2" element={ <Exercise2/> } />
         <Route path="exercise/3" element={ <Exercise3/> } />
         <Route path="exercise/4" element={ <Exercise4/> } />
-        <Route path="exercise/3/solution" element={ <Exercise3Solution/> } />
         <Route path="exercise/5" element={ <Exercise5/> } />
+        <Route path="exercise/6" element={ <Exercise6/> } />
+        <Route path="exercise/7" element={ <Exercise7/> } />
       </Routes>
     </div>
   );
